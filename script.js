@@ -1,5 +1,6 @@
 const birthday = '24 Aug 2021';
 
+/** Calculate time countdown and display on page */
 function countDown() {
   const birthdayDate = new Date(birthday);
   const currentDate = new Date();
@@ -31,4 +32,5 @@ function countDown() {
 
 countDown();
 
+/** Get the actual time every second */
 setInterval(countDown, 1000);
