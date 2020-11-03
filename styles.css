@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./birthday.jpg');
+  font-family: 'Roboto', sans-serif;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+
+.countdown-container {
+  display: flex;
+  text-align: center;
+}
+
+span {
+  font-size: 1.25rem;
+}
+
+.big-text {
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+
